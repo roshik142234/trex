@@ -53,7 +53,7 @@ function draw() {
   if(keyDown("space")) {
     trex.velocityY = -10;
   }
-  
+  console.log(trex.velocityY);
   trex.velocityY = trex.velocityY + 0.8
   
   if (ground.x < 0){
